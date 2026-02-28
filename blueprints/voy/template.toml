@@ -1,0 +1,14 @@
+[variables]
+main_domain = "${domain}"
+image = "ghcr.io/leomartindev/voy:latest"
+better_auth_secret = "${password:32}"
+searxng_secret = "${password:32}"
+instance_name = "Voy"
+max_request_timeout = "1.8"
+
+[config]
+[[config.domains]]
+serviceName = "app"
+port = 3000
+host = "${main_domain}"
+path = "/"

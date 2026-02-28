@@ -6672,5 +6672,23 @@
       "saml",
       "multi-tenant"
     ]
+  },
+  {
+    "id": "voy",
+    "name": "Voy",
+    "description": "A self-hosted, privacy-first metasearch engine built on top of SearXNG. All searches are proxied through your own server — no tracking, no data sent to third parties.",
+    "logo": "voy.jpg",
+    "links": {
+      "github": "https://github.com/LeoMartinDev/voy",
+      "website": "https://github.com/LeoMartinDev/voy"
+    },
+    "tags": [
+      "search",
+      "search-engine",
+      "privacy",
+      "searxng",
+      "metasearch",
+      "privacy"
+    ]
   }
 ]
